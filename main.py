@@ -9,23 +9,19 @@ import pandas as pd
 
 app = FastAPI() 
 
-# ! CSV FILE DATA ADD IN DATABASE
-db_name1="sql8502670"
-db_user1="sql8502670"
-db_password1="RtB3fuD9pJ"
-db_host1="sql8.freesqldatabase.com"
-db_port1="3306"
+
 
 # ! database get data and convert into Csv
-# db_name = 'digicides'
-# db_user= 'kingadmin'
-# db_password = '12345678'
-# db_host = 'database-1.czaglb0mlalx.ap-south-1.rds.amazonaws.com'
-# db_port = str(os.getenv('DB_PORT'))
+db_name = 'digicides'
+db_user= 'kingadmin'
+db_password = '12345678'
+db_host = 'database-1.czaglb0mlalx.ap-south-1.rds.amazonaws.com'
+db_port = str(os.getenv('DB_PORT'))
+
 
 # name of csv file
 filename = "zthree.csv"
-fieldname1= ["userid","email","password","role","reporting","status","company","blocked","deleted","phone","name"]
+fieldname1= ["userid","email","password","role","reporting","status","company","blocked","deleted","phone","name","created_at","updated_at"]
 
 # Write the CSV File
 def csvFun(rows):
@@ -37,7 +33,7 @@ def csvFun(rows):
         writer.writerows(rows)
 
 def dtbse(query=None):
-    dbCon = pymysql.connect(host=db_host1, user=db_user1, password=db_password1, database=db_name1, charset='utf8mb4',
+    dbCon = pymysql.connect(host=db_host, user=db_user, password=db_password, database=db_name, charset='utf8mb4',
                           cursorclass=pymysql.cursors.DictCursor)
 
     try :
@@ -69,7 +65,7 @@ def downloadCsvFile():
 
 # ! csv to database 
 def csvtodatabse(files):
-    dbCon = pymysql.connect(host=db_host1, user=db_user1, password=db_password1, database=db_name1, charset='utf8mb4',
+    dbCon = pymysql.connect(host=db_host, user=db_user, password=db_password, database=db_name, charset='utf8mb4',
                           cursorclass=pymysql.cursors.DictCursor)
     
     try :
@@ -88,8 +84,11 @@ def csvtodatabse(files):
                 deleted =None if pd.isna(row.deleted) ==True  else row.deleted 
                 name=None if pd.isna(row.name) ==True  else row.name 
                 phone=None if pd.isna(row.phone) ==True  else row.phone
-                cur.execute('INSERT INTO users VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s,%s ,%s)',
-                            (userid, email, password, role, reporting, ustatus,company, blocked, deleted,name,phone))                 
+                created_at=None if pd.isna(row.created_at) ==True  else row.created_at
+                updated_at=None if pd.isna(row.updated_at) ==True  else row.updated_at
+
+                cur.execute('INSERT INTO users VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s,%s ,%s,%s,%s)',
+                            (userid, email, password, role, reporting, ustatus,company, blocked, deleted,name,phone,created_at,updated_at))                 
               
                 # print("Record inserted")
                 dbCon.commit()
