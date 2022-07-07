@@ -2,21 +2,29 @@ import os
 import json
 import pymysql 
 import csv
-from fastapi import FastAPI,  File, UploadFile
+from fastapi import FastAPI,  File, UploadFile, Header, Depends
 from fastapi.responses import FileResponse
 import pandas as pd
+import sys
+from tempfile import NamedTemporaryFile
+
 
 
 # importing the module
 import timeit
 
 
+async def valid_content_length(content_length: int = Header(..., lt=90_000)):
+    # print(content_length)
+    # print(type(content_length))
+    return content_length
+
 app = FastAPI() 
 
 # ! database to enter csv data 
 db_name1 = 'TkPan27E9q'
 db_user1= 'TkPan27E9q'
-db_password1 = 'kXjf5HCrM1'
+db_password1 = 'HzopKYQkwc'
 db_host1 = 'remotemysql.com'
 db_port1 = str(os.getenv('DB_PORT'))
 
@@ -111,22 +119,40 @@ def csvtodatabse(files):
        dbCon.close()
     return {"data" : "data set"}
 
-start = timeit.default_timer()
 
-@app.post("/uploadfile")
+@app.post("/uploadfile", dependencies=[Depends(valid_content_length)])
 async def uploadCsv(csv_file : UploadFile =File(...)) :
-  df = pd.read_csv(csv_file.file) 
-  csvtodatabse(df)
+
+    df = pd.read_csv(csv_file.file) 
+   
   
-  print(" rows line ", df.shape[0])
-  if df.shape[0] !=None:
-    return {"status":"Sucess"}
-  elif df.shape[0] ==None:
-    return {"status":"Sucess"}
-  else:
-    return {"status":"Error"}
+    csvtodatabse(df)
+    
+    if df.shape[0] !=None:
+       return {"status":"Sucess"}
+    else:
+     return {"status":"Error"}
 
-end = timeit.default_timer()
 
-# t= timeit.timeit(lambda:uploadCsv(), number=1)
-print(f"time execute for upload csv {end-start}")
+
+
+
+@app.post("/uploadfile/")
+async def upload_file(file: UploadFile = File(...)):
+    contents = await file.read()
+
+    file_copy = NamedTemporaryFile(delete=False)
+    try:
+        file_copy.write(contents);  # copy the received file data into a new temp file. 
+        file_copy.seek(0)  # move to the beginning of the file
+        print(file_copy.read(10))
+        
+        # Here, upload the file to your S3 service
+
+    finally:
+        file_copy.close()  # Remember to close any file instances before removing the temp file
+        os.unlink(file_copy.name)  # unlink (remove) the file
+    
+    # print(contents)  # Handle file contents as desired
+    return {"filename": file.filename}
+    
