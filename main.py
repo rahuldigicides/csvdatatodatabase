@@ -120,7 +120,8 @@ def csvtodatabse(files):
     return {"data" : "data set"}
 
 
-@app.post("/uploadfile", dependencies=[Depends(valid_content_length)])
+# @app.post("/uploadfile", dependencies=[Depends(valid_content_length)])
+@app.post("/uploadfile")
 async def uploadCsv(csv_file : UploadFile =File(...)) :
 
     df = pd.read_csv(csv_file.file) 
