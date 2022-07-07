@@ -1,381 +1,67 @@
-userid,email,password,role,reporting,status,company,blocked,deleted,phone,name
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mans,a,z,in progress,digicides,0,0,q,mamamss
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,lmango,mangos
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mans,a,z,in progress,digicides,0,0,q,mamamss
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,lmango,mangos
-936,gagan@grr.la,mango,admin,mans,in progress,digicides,0,0,none,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mans,a,z,in progress,digicides,0,0,q,mamamss
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,lmango,mangos
-936,gagan@grr.la,mango,admin,mans,in progress,digicides,0,0,none,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mans,a,z,in progress,digicides,0,0,q,mamamss
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,lmango,mangos
-936,gagan@grr.la,mango,admin,mans,in progress,digicides,0,0,nnn,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahuls,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mama,a,z,in progress,digicides,0,0,q,mano
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahuls,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mama,a,z,in progress,digicides,0,0,q,mano
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,mama,nanan
-936,gagan@grr.la,mamam,admin,rahus,in progress,digicides,0,0,gagan,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahuls,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mama,a,z,in progress,digicides,0,0,q,mano
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,mama,nanan
-936,gagan@grr.la,mamam,admin,rahus,in progress,digicides,0,0,gagan,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahuls,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mama,a,z,in progress,digicides,0,0,q,mano
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,mama,nanan
-936,gagan@grr.la,mamam,admin,rahus,in progress,digicides,0,0,gagan,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,ratat,a,z,in progress,digicides,0,0,q,7740929655
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,8894562
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,gagan,mango
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahuls,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,mama,a,z,in progress,digicides,0,0,q,mano
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,mama,nanan
-936,gagan@grr.la,mamam,admin,rahus,in progress,digicides,0,0,gagan,mamam
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,ratat,a,z,in progress,digicides,0,0,q,7740929655
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,8894562
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,gagan,mango
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,ratat,a,z,in progress,digicides,0,0,q,7740929655
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,8894562
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,gagan,mango
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-936,gagan@grr.la,user,admin,mann,in progress,digicides,0,0,gagan,7000000
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-936,gagan@grr.la,user,admin,mann,in progress,digicides,0,0,gagan,7000000
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-936,gagan@grr.la,user,admin,mann,in progress,digicides,0,0,gagan,7000000
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-936,gagan@grr.la,user,admin,mann,in progress,digicides,0,0,gagan,7000000
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,ratat,a,z,in progress,digicides,0,0,q,7740929655
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,8894562
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,gagan,mango
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,ratat,a,z,in progress,digicides,0,0,q,7740929655
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,8894562
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,gagan,mango
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahul,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,users,a,z,in progress,digicides,0,0,q,70010100
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahuoso,77740855
-936,gagan@grr.la,nanana,admin,mans,in progress,digicides,0,0,gagan,7740929618
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahul,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,users,a,z,in progress,digicides,0,0,q,70010100
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahuoso,77740855
-936,gagan@grr.la,nanana,admin,mans,in progress,digicides,0,0,gagan,7740929618
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,rahul,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,users,a,z,in progress,digicides,0,0,q,70010100
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahuoso,77740855
-936,gagan@grr.la,nanana,admin,mans,in progress,digicides,0,0,gagan,7740929618
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,1
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,2
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,3
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,4
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,5
-618,w,users,a,z,in progress,digicides,0,0,70010100,6
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,7
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,77740855,8
-936,gagan@grr.la,nanana,admin,mans,in progress,digicides,0,0,7740929618,9
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,1
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,2
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,3
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,4
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,5
-618,w,usrs,a,z,in progress,digicides,0,0,77895555,6
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,7
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,7789562200,8
-936,gagan@grr.la,user,admin,,in progress,digicides,0,0,7000000,9
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,1
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,2
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,3
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,4
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,5
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,6
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,namam,9674697623
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,ungnen,9674697623
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,king,9876534000
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,ritz,1234512345
-618,w,usrs,a,z,in progress,digicides,0,0,q,77895555
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,khiladi k,9674697623
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,rahul,7789562200
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,1
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,2
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,3
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,4
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,5
-618,w,usrs,a,z,in progress,digicides,0,0,77895555,6
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,7
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,7789562200,8
-936,gagan@grr.la,user,admin,,in progress,digicides,0,0,7000000,9
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,1
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,2
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,3
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,4
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,5
-618,w,usrs,a,z,in progress,digicides,0,0,77895555,6
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,7
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,7789562200,8
-936,gagan@grr.la,user,admin,,in progress,digicides,0,0,7000000,9
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,1
-16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,2
-164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,3
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,4
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,5
-618,w,,a,z,in progress,digicides,0,0,,6
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,7
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,,8
-936,gagan@grr.la,,admin,,in progress,digicides,0,0,,9
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,1
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,2
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,3
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,4
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,5
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,6
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,7
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,8
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,9
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,10
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,11
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,12
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,13
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,14
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,15
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,16
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,17
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,18
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,19
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,20
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,21
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,22
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,23
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,24
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,25
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,26
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,27
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,28
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,29
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,30
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,31
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,32
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,33
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,34
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,35
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,36
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,37
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,38
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,39
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,40
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,41
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,42
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,43
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,44
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,45
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,46
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,47
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,48
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,0
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,1
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,2
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,3
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,4
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,5
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,6
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,7
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,8
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,9
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,10
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,11
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,12
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,13
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,14
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,15
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,16
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,17
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,18
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,19
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,20
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,21
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,22
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,23
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,24
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,25
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,26
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,27
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,28
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,29
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,30
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,31
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,32
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,33
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,34
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,35
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,36
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,37
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,38
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,39
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,40
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,41
-16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,9674697623,42
-231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,9876534000,43
-506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,1234512345,44
-618,w,ratat,a,z,in progress,digicides,0,0,7740929655,45
-70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,9674697623,46
-786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,8894562,47
-936,gagan@grr.la,rahus,admin,mango,in progress,digicides,0,0,,48
+id,email,password,role,reporting,status,company_id,blocked,deleted,phone,name,created_at,updated_at
+111,hemant.jain@digicides.com,Hemant@2124,Owner,Senior Manager,In Progress,Digicides,0,0,0,9924040902,2022-07-06 05:45:36,2022-07-06 05:45:36
+12136,king@gmail.com,king,user,senior manager,in progress,digicides,0,0,1,9674697623,2022-07-04 19:59:38,2022-07-04 19:59:38
+111,hemant.jain@digicides.com,Hemant@2124,Owner,Senior Manager,In Progress,Digicides,0,0,0,9924040902,2022-07-06 05:45:36,2022-07-06 05:45:36
+12136,king@gmail.com,king,user,senior manager,in progress,digicides,0,0,1,9674697623,2022-07-04 19:59:38,2022-07-04 19:59:38
+16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,2,9674697623,,
+1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,3,9674697623,,
+16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,4,9674697623,,
+164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,5,9674697623,,
+178,ritzkewl@gmail.com,12345678,user,senior manager,in progress,digicides,0,0,6,9836991579,2022-07-05 11:37:31,2022-07-05 11:37:31
+206,a12345@gmail.com,mango77Ape,Owner,Senior Manager,In Progress,Hsuzvv,0,0,7,7740929618,2022-07-06 05:21:25,2022-07-06 05:21:25
+231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,8,9876534000,,
+506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,9,1234512345,,
+111,hemant.jain@digicides.com,Hemant@2124,Owner,Senior Manager,In Progress,Digicides,0,0,0,9924040902,2022-07-06 05:45:36,2022-07-06 05:45:36
+12136,king@gmail.com,king,user,senior manager,in progress,digicides,0,0,1,9674697623,2022-07-04 19:59:38,2022-07-04 19:59:38
+16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,2,9674697623,,
+1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,3,9674697623,,
+16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,4,9674697623,,
+164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,5,9674697623,,
+178,ritzkewl@gmail.com,12345678,user,senior manager,in progress,digicides,0,0,6,9836991579,2022-07-05 11:37:31,2022-07-05 11:37:31
+206,a12345@gmail.com,mango77Ape,Owner,Senior Manager,In Progress,Hsuzvv,0,0,7,7740929618,2022-07-06 05:21:25,2022-07-06 05:21:25
+231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,8,9876534000,,
+506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,9,1234512345,,
+565,qw@grr.la,,Trainee,User,in progress,digicides,0,0,10,,2022-07-06 11:53:43,2022-07-06 11:53:43
+618,w,,a,z,in progress,digicides,0,1,11,,,
+70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,12,9674697623,,
+717,a5111 gmail.com,mango77Ape@#$,Owner,Senior Manager,In Progress,Hsuzvv,0,0,13,7777777778,2022-07-05 14:51:53,2022-07-05 14:51:53
+786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,14,,,
+856,tanujwithyou@gmail.com,12345678,Owner,Senior Manager,In Progress,HCL,0,0,15,8981024223,2022-07-05 12:54:16,2022-07-05 12:54:16
+909,pratiksha.yaduwanshi@digicides.com,21082711pY,Owner,Senior Manager,In Progress,Digicides,0,0,16,9670407377,2022-07-06 05:23:22,2022-07-06 05:23:22
+936,gagan@grr.la,,admin,,in progress,digicides,0,0,17,,,
+111,hemant.jain@digicides.com,Hemant@2124,Owner,Senior Manager,In Progress,Digicides,0,0,0,9924040902,2022-07-06 05:45:36,2022-07-06 05:45:36
+12136,king@gmail.com,king,user,senior manager,in progress,digicides,0,0,1,9674697623,2022-07-04 19:59:38,2022-07-04 19:59:38
+16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,2,9674697623,,
+1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,3,9674697623,,
+16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,4,9674697623,,
+164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,5,9674697623,,
+178,ritzkewl@gmail.com,12345678,user,senior manager,in progress,digicides,0,0,6,9836991579,2022-07-05 11:37:31,2022-07-05 11:37:31
+206,a12345@gmail.com,mango77Ape,Owner,Senior Manager,In Progress,Hsuzvv,0,0,7,7740929618,2022-07-06 05:21:25,2022-07-06 05:21:25
+231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,8,9876534000,,
+506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,9,1234512345,,
+565,qw@grr.la,,Trainee,User,in progress,digicides,0,0,10,,2022-07-06 11:53:43,2022-07-06 11:53:43
+618,w,,a,z,in progress,digicides,0,1,11,,,
+70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,12,9674697623,,
+717,a5111 gmail.com,mango77Ape@#$,Owner,Senior Manager,In Progress,Hsuzvv,0,0,13,7777777778,2022-07-05 14:51:53,2022-07-05 14:51:53
+786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,14,,,
+856,tanujwithyou@gmail.com,12345678,Owner,Senior Manager,In Progress,HCL,0,0,15,8981024223,2022-07-05 12:54:16,2022-07-05 12:54:16
+909,pratiksha.yaduwanshi@digicides.com,21082711pY,Owner,Senior Manager,In Progress,Digicides,0,0,16,9670407377,2022-07-06 05:23:22,2022-07-06 05:23:22
+936,gagan@grr.la,,admin,,in progress,digicides,0,0,17,,,
+111,hemant.jain@digicides.com,Hemant@2124,Owner,Senior Manager,In Progress,Digicides,0,0,0,9924040902,2022-07-06 05:45:36,2022-07-06 05:45:36
+12136,king@gmail.com,king,user,senior manager,in progress,digicides,0,0,1,9674697623,2022-07-04 19:59:38,2022-07-04 19:59:38
+16,khiladi716@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,2,9674697623,,
+1644,k898@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,3,9674697623,,
+16447,k89889@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,0,4,9674697623,,
+164471,k9@gmail.com,khiladi786,user,senior manager,in progress,digicides,0,1,5,9674697623,,
+178,ritzkewl@gmail.com,12345678,user,senior manager,in progress,digicides,0,0,6,9836991579,2022-07-05 11:37:31,2022-07-05 11:37:31
+206,a12345@gmail.com,mango77Ape,Owner,Senior Manager,In Progress,Hsuzvv,0,0,7,7740929618,2022-07-06 05:21:25,2022-07-06 05:21:25
+231,king@grr.la,12345678,user,senior manager,in progress,digicides,0,0,8,9876534000,,
+506,ritz@grr.la,98765432,user,senior manager,in progress,digicides,0,0,9,1234512345,,
+565,qw@grr.la,,Trainee,User,in progress,digicides,0,0,10,,2022-07-06 11:53:43,2022-07-06 11:53:43
+618,w,,a,z,in progress,digicides,0,1,11,,,
+70,a5@gmail.com,mango77,user,senior manager,in progress,digicides,0,0,12,9674697623,,
+717,a5111 gmail.com,mango77Ape@#$,Owner,Senior Manager,In Progress,Hsuzvv,0,0,13,7777777778,2022-07-05 14:51:53,2022-07-05 14:51:53
+786,khiladi786@gmail.com,khiladi786,user,senior manager,subscribed,digicides,0,1,14,,,
+856,tanujwithyou@gmail.com,12345678,Owner,Senior Manager,In Progress,HCL,0,0,15,8981024223,2022-07-05 12:54:16,2022-07-05 12:54:16
+909,pratiksha.yaduwanshi@digicides.com,21082711pY,Owner,Senior Manager,In Progress,Digicides,0,0,16,9670407377,2022-07-06 05:23:22,2022-07-06 05:23:22
+936,gagan@grr.la,,admin,,in progress,digicides,0,0,17,,,

@@ -7,7 +7,19 @@ from fastapi.responses import FileResponse
 import pandas as pd
 
 
+# importing the module
+import timeit
+
+
 app = FastAPI() 
+
+# ! database to enter csv data 
+db_name1 = 'TkPan27E9q'
+db_user1= 'TkPan27E9q'
+db_password1 = 'kXjf5HCrM1'
+db_host1 = 'remotemysql.com'
+db_port1 = str(os.getenv('DB_PORT'))
+
 
 
 
@@ -19,21 +31,22 @@ db_host = 'database-1.czaglb0mlalx.ap-south-1.rds.amazonaws.com'
 db_port = str(os.getenv('DB_PORT'))
 
 
-# name of csv file
-filename = "zthree.csv"
-fieldname1= ["userid","email","password","role","reporting","status","company","blocked","deleted","phone","name","created_at","updated_at"]
+filename="zthree.csv"
+fieldname1= ["id","email","password","role","reporting","status","company_id","blocked","deleted","phone","name","created_at","updated_at"]
 
 # Write the CSV File
 def csvFun(rows):
-    # with open (filename ,'w') as csvfile: 
+    # with open (filename ,'w') as csvfile:
+    # print("=======================================", rows) 
     with open(filename , 'w' , encoding='UTF8', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldname1, delimiter=',',)
         # ! Header and Rows of Csv Data 
         writer.writeheader() 
         writer.writerows(rows)
+        
 
 def dtbse(query=None):
-    dbCon = pymysql.connect(host=db_host, user=db_user, password=db_password, database=db_name, charset='utf8mb4',
+    dbCon = pymysql.connect(host=db_host1, user=db_user1, password=db_password1, database=db_name1, charset='utf8mb4',
                           cursorclass=pymysql.cursors.DictCursor)
 
     try :
@@ -43,6 +56,7 @@ def dtbse(query=None):
             result =  cur.fetchall()
             dbCon.commit()
             # ! Csv Function Call
+            # print("=======================================", result)
             csvFun(result)
             
     finally:
@@ -62,10 +76,9 @@ def downloadCsvFile():
 
 
 
-
 # ! csv to database 
 def csvtodatabse(files):
-    dbCon = pymysql.connect(host=db_host, user=db_user, password=db_password, database=db_name, charset='utf8mb4',
+    dbCon = pymysql.connect(host=db_host1, user=db_user1, password=db_password1, database=db_name1, charset='utf8mb4',
                           cursorclass=pymysql.cursors.DictCursor)
     
     try :
@@ -73,12 +86,12 @@ def csvtodatabse(files):
            
             for i , row in files.iterrows():
               
-                userid = None if pd.isna(row.userid) ==True  else row.userid 
+                id = None if pd.isna(row.id) ==True  else row.id 
                 password = None if pd.isna(row.password) ==True  else  row.password
                 email = None if pd.isna(row.email) ==True  else row.email
                 role = None if pd.isna(row.role) ==True  else row.role
                 ustatus = None if pd.isna(row.status) ==True  else row.status
-                company = None if pd.isna(row.company) ==True  else row.company
+                company_id = None if pd.isna(row.company_id) ==True  else row.company_id
                 reporting =None if pd.isna(row.reporting) ==True  else row.reporting
                 blocked =None if pd.isna(row.blocked) ==True  else row.blocked
                 deleted =None if pd.isna(row.deleted) ==True  else row.deleted 
@@ -88,9 +101,9 @@ def csvtodatabse(files):
                 updated_at=None if pd.isna(row.updated_at) ==True  else row.updated_at
 
                 cur.execute('INSERT INTO users VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s,%s ,%s,%s,%s)',
-                            (userid, email, password, role, reporting, ustatus,company, blocked, deleted,name,phone,created_at,updated_at))                 
+                            (id, email, password, role, reporting, ustatus,company_id, blocked, deleted,name,phone,created_at,updated_at))                 
               
-                # print("Record inserted")
+                print(f"Record inserted  {i} ")
                 dbCon.commit()
                 
            
@@ -98,13 +111,14 @@ def csvtodatabse(files):
        dbCon.close()
     return {"data" : "data set"}
 
-
+start = timeit.default_timer()
 
 @app.post("/uploadfile")
 async def uploadCsv(csv_file : UploadFile =File(...)) :
   df = pd.read_csv(csv_file.file) 
   csvtodatabse(df)
- 
+  
+  print(" rows line ", df.shape[0])
   if df.shape[0] !=None:
     return {"status":"Sucess"}
   elif df.shape[0] ==None:
@@ -112,3 +126,7 @@ async def uploadCsv(csv_file : UploadFile =File(...)) :
   else:
     return {"status":"Error"}
 
+end = timeit.default_timer()
+
+# t= timeit.timeit(lambda:uploadCsv(), number=1)
+print(f"time execute for upload csv {end-start}")
