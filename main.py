@@ -137,22 +137,22 @@ async def uploadCsv(csv_file : UploadFile =File(...)) :
 
 
 
-@app.post("/uploadfile/")
-async def upload_file(file: UploadFile = File(...)):
-    contents = await file.read()
+# @app.post("/uploadfile/")
+# async def upload_file(file: UploadFile = File(...)):
+#     contents = await file.read()
 
-    file_copy = NamedTemporaryFile(delete=False)
-    try:
-        file_copy.write(contents);  # copy the received file data into a new temp file. 
-        file_copy.seek(0)  # move to the beginning of the file
-        print(file_copy.read(10))
+#     file_copy = NamedTemporaryFile(delete=False)
+#     try:
+#         file_copy.write(contents);  # copy the received file data into a new temp file. 
+#         file_copy.seek(0)  # move to the beginning of the file
+#         print(file_copy.read(10))
         
-        # Here, upload the file to your S3 service
+#         # Here, upload the file to your S3 service
 
-    finally:
-        file_copy.close()  # Remember to close any file instances before removing the temp file
-        os.unlink(file_copy.name)  # unlink (remove) the file
+#     finally:
+#         file_copy.close()  # Remember to close any file instances before removing the temp file
+#         os.unlink(file_copy.name)  # unlink (remove) the file
     
-    # print(contents)  # Handle file contents as desired
-    return {"filename": file.filename}
+#     # print(contents)  # Handle file contents as desired
+#     return {"filename": file.filename}
     
